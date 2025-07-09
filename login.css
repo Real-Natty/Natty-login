@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 html,
 body {
@@ -78,9 +78,8 @@ button {
   transform-origin: left;
   transition: all 0.3s ease;
 }
-.container form .input-box input,
-button:focus ~ .underline:after .container form .input-box input,
-button:valid ~ .underline:after {
+.container form .input-box input button:focus ~ .underline:after,
+.container form .input-box input button:valid ~ .underline:after {
   transform: scaleX(1);
   transform-origin: left;
 }
