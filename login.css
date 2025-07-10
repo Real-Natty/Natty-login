@@ -78,10 +78,27 @@ button {
   transform-origin: left;
   transition: all 0.3s ease;
 }
+/* .container form .input-box input[type="submit"] {
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #ff0080 0%, #99004d 100%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.container form .input-box input[type="submit"]:hover {
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  transform: scale(1.05);
+  letter-spacing: 1px;
+} */
 .container form .input-box input button:focus ~ .underline:after,
 .container form .input-box input button:valid ~ .underline:after {
   transform: scaleX(1);
-  transform-origin: left;
+  /* transform-origin: left; */
 }
 .container form .input-box button {
   background: linear-gradient(to right, #ff0080 0%, #99004d 100%);
